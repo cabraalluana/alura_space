@@ -40,10 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'galeria'
-=======
->>>>>>> d15aeda8e42e5d4cac73cacd8f268f6fa040cc31
 ]
 
 MIDDLEWARE = [
@@ -61,11 +58,7 @@ ROOT_URLCONF = 'setup.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-<<<<<<< HEAD
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
-=======
-        'DIRS': [],
->>>>>>> d15aeda8e42e5d4cac73cacd8f268f6fa040cc31
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,15 +121,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-<<<<<<< HEAD
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setup/static')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-=======
->>>>>>> d15aeda8e42e5d4cac73cacd8f268f6fa040cc31
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
